@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <ul id="slide-out" class="sidenav">
+
+        <li><a href="#header"><i class="material-icons">home</i>Главная</a></li>
+        <li><a href="#about"><i class="material-icons">people</i>О нас</a></li>
+        <li><a href="#services"><i class="material-icons">grade</i>Услуги</a></li>
+        <li><a href="#contact"><i class="material-icons">phone</i>Контакты</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a></li>
+
+    </ul>
+    <section class="header" id="header">
+        <div class="container">
+            <div class="header__title">
+                <img src="img/logo.svg" alt="logo" class="logo">
+                <a href="#" data-target="slide-out" class="burger sidenav-trigger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </a>
+            </div>
+            <h1 class="h1">Реализуем крупнейшие проекты в России</h1>
+            <h4 class="text-h4 h4">Стадионы, газопроводы, мосты, дамбы</h4>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="info">
+            <div class="container">
+                <div class="about__grid">
+                    <div class="about__grid-item">
+                        <div class="about__h4">26</div>
+                        <div class="about__h5">Лет</div>
+                        <div class="about__p">на рынке</div>
+                    </div>
+                    <div class="about__grid-item">
+                        <div class="about__h4">26</div>
+                        <div class="about__h5">Лет</div>
+                        <div class="about__p">на рынке</div>
+                    </div>
+                    <div class="about__grid-item">
+                        <div class="about__h4">26</div>
+                        <div class="about__h5">Лет</div>
+                        <div class="about__p">на рынке</div>
+                    </div>
+                    <div class="about__grid-item">
+                        <div class="about__h4">26</div>
+                        <div class="about__h5">Лет</div>
+                        <div class="about__p">на рынке</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-h2 project-h2">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h2>
+            <div class="about_flex">
+                <div class="about__flex-item">
+                    <img class="project-img" src="img/Arena.jpg" alt="project-img">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Газпром Арена</h3>
+                    <p class="text-p project-p">Мы сделали самую красивую арену в Европе. Это открытие стало для нас
+                        прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
+                </div>
+                <div class="about__flex-item">
+                    <img class="project-img" src="img/Arena.jpg" alt="project-img">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Газпром Арена</h3>
+                    <p class="text-p project-p">Мы сделали самую красивую арену в Европе. Это открытие стало для нас
+                        прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
+                </div>
+                <div class="about__flex-item">
+                    <img class="project-img" src="img/Arena.jpg" alt="project-img">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Газпром Арена</h3>
+                    <p class="text-p project-p">Мы сделали самую красивую арену в Европе. Это открытие стало для нас
+                        прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Ваш запрос ла ла ла</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quibusdam labore eum eveniet blanditiis harum libero repellendus suscipit iure quae, illo ex esse nulla velit reprehenderit molestiae. Iure, ipsam excepturi.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+    <section class="request" id="request">
+        <div class="container">
+            <div class="request-flex">
+                <div class="request-text">
+                    <h4 class="request-h4">САМЫЕ УМНЫЕ ПРОЕКТЫ</h4>
+                    <h5 class="text-p request-h5">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</h5>
+                </div>
+                <a class="request-button waves-effect waves-light btn modal-trigger" href="#modal1">
+                    <img src="/img/mail.svg" alt="mail">
+                    ваш запрос</a>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="text-h2 services-h2">Чем мы занимаемся?</h2>
+            <div class="services__grid">
+                <div class="services__grid-item">
+                    <img class="secrvices-ico" src="/img/home.svg" alt="ico-home">
+                    <h3 class="services-h3">Строительство офисных зданий</h3>
+                </div>
+                <div class="services__grid-item">
+                    <img class="secrvices-ico" src="/img/home.svg" alt="ico-home">
+                    <h3 class="services-h3">Строительство офисных зданий</h3>
+                </div>
+                <div class="services__grid-item">
+                    <img class="secrvices-ico" src="/img/home.svg" alt="ico-home">
+                    <h3 class="services-h3">Строительство офисных зданий</h3>
+                </div>
+                <div class="services__grid-item">
+                    <img class="secrvices-ico" src="/img/home.svg" alt="ico-home">
+                    <h3 class="services-h3">Строительство офисных зданий</h3>
+                </div>
+                <div class="services__grid-item">
+                    <img class="secrvices-ico" src="/img/home.svg" alt="ico-home">
+                    <h3 class="services-h3">Строительство офисных зданий</h3>
+                </div> 
+                <div class="services__grid-item">
+                    <img class="secrvices-ico" src="/img/home.svg" alt="ico-home">
+                    <h3 class="services-h3">Строительство офисных зданий</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="portfolio__grid">
+            <div class="protfolio__grid-item">
+                <img class="portfolio__img materialboxed" src="img/Rectangle 3.png" alt="">
+            </div>
+            <div class="protfolio__grid-item">
+                <img class="portfolio__img materialboxed" src="img/Rectangle 3.png" alt="">
+            </div>
+            <div class="protfolio__grid-item">
+                <img class="portfolio__img materialboxed" src="img/Rectangle 3.png" alt="">
+            </div>
+            <div class="protfolio__grid-item">
+                <img class="portfolio__img materialboxed" src="img/Rectangle 3.png" alt="">
+            </div>
+            <div class="protfolio__grid-item">
+                <img class="portfolio__img materialboxed" src="img/Rectangle 3.png" alt="">
+            </div>
+            <div class="protfolio__grid-item">
+                <img class="portfolio__img materialboxed" src="img/Rectangle 3.png" alt="">
+            </div>
+            <div class="protfolio__grid-item">
+                <img class="portfolio__img materialboxed" src="img/Rectangle 3.png" alt="">
+            </div>
+            <div class="protfolio__grid-item">
+                <img class="portfolio__img materialboxed" src="img/Rectangle 3.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="question">
+        <div class="container">
+            <h2 class="text-h2 question__h2">Ответы на вопросы</h2>
+            <div class="question__items">
+                <details class="question-item">
+                    <summary class="text-h3 question_h3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</summary>
+                    <p class="text-p question_p">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                        стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+                        печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+                        образцов.
+                    </p>
+                </details>
+                <details class="question-item">
+                    <summary class="text-h3 question_h3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</summary>
+                    <p class="text-p question_p">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                        стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+                        печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+                        образцов.
+                    </p>
+                </details>
+                <details class="question-item">
+                    <summary class="text-h3 question_h3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</summary>
+                    <p class="text-p question_p">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                        стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+                        печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+                        образцов.
+                    </p>
+                </details>
+                <details class="question-item">
+                    <summary class="text-h3 question_h3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</summary>
+                    <p class="text-p question_p">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                        стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+                        печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+                        образцов.
+                    </p>
+                </details>
+            </div>
+
+        </div>
+    </section>
+    <section class="partners" id="partners">
+        <div class="container">
+            <h2 class="text-h2 partners__h2">Наши партнеры</h2>
+            <div class="partners__flex">
+                <div class="partners__item">
+                    <img src="/img/partner.png" alt="partner">
+                </div>
+                <div class="partners__item">
+                    <img src="/img/partner.png" alt="partner">
+                </div>
+                <div class="partners__item">
+                    <img src="/img/partner.png" alt="partner">
+                </div>
+                <div class="partners__item">
+                    <img src="/img/partner.png" alt="partner">
+                </div>
+                <div class="partners__item">
+                    <img src="/img/partner.png" alt="partner">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="text-h2 reviews__h2">отзывы о работе с нами</h2>
+            <div class="reviews__flex">
+                <div class="review__item">
+                    <div class="review__block">
+                        <img class="review-mark" src="img/mark.svg" alt="mark">
+                        <p class="text-p review-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне.
+                            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                            время
+                            некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
+                    </div>
+                    <p class="review__autor">Иванов Иван, <span class="accent-color">ООО “Газпром-Арена”</span></p>
+                </div>
+                <div class="review__item">
+                    <div class="review__block">
+                        <img class="review-mark" src="img/mark.svg" alt="mark">
+                        <p class="text-p review-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне.
+                            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                            время
+                            некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
+                    </div>
+                    <p class="review__autor">Иванов Иван, <span class="accent-color">ООО “Газпром-Арена”</span></p>
+                </div>
+                <div class="review__item">
+                    <div class="review__block">
+                        <img class="review-mark" src="img/mark.svg" alt="mark">
+                        <p class="text-p review-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне.
+                            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                            время
+                            некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
+                    </div>
+                    <p class="review__autor">Иванов Иван, <span class="accent-color">ООО “Газпром-Арена”</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="request" id="request">
+        <div class="container">
+            <div class="request-flex">
+                <div class="request-text">
+                    <h4 class="request-h4">ХОТИТЕ С НАМИ РАБОТАТЬ?</h4>
+                    <h5 class="text-p request-h5">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</h5>
+                </div>
+                <button class="request-button">
+                    <img src="/img/mail.svg" alt="mail">
+                    ваш запрос</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="text-h2 contact__h2">КОНТАКТЫ</h2>
+            <div class="contact__grid">
+                <div class="contact__item">
+                    <div class="contact-ico"><img src="/img/adress.svg" alt="adress-ico"></div>
+                    <h3 class="text-h3 contact-label">АДРЕС:</h3>
+                    <h4 class="text-h4 contact-text_info">НЕВСКИЙ ПРОСПЕКТ 140,<br>
+                        ОФИС 140-142</h4>
+                </div>
+                <div class="contact__item">
+                    <div class="contact-ico"><img src="/img/phone.svg" alt="adress-ico"></div>
+                    <h3 class="text-h3 contact-label">ТЕЛЕФОН:</h3>
+                    <h4 class="text-h4 contact-text_info">
+                        <a href="tel:+78121112233">8 (812) 111-22-33</a>
+                        <br>
+                        <a href="tel:+78121112233">8 (812) 111-22-33</a>
+                    </h4>
+                </div>
+                <div class="contact__item">
+                    <div class="contact-ico"><img src="/img/clock.svg" alt="adress-ico"></div>
+                    <h3 class="text-h3 contact-label">ВРЕМЯ РАБОТЫ:</h3>
+                    <h4 class="text-h4 contact-text_info">
+                        ПН-СБ<br>10:00 - 20:00
+                    </h4>
+                </div>
+                <div class="contact__item">
+                    <div class="contact-ico"><img src="/img/contact_mail.svg" alt="adress-ico"></div>
+                    <h3 class="text-h3 contact-label">E-MAIL:</h3>
+                    <h4 class="text-h4 contact-text_info accent-color"><a href="mailto:info@vip.ru">INFO@VIP.RU</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <p class="text-p footer__copyright">&copy; 2019 Строительная компания</p>
+                <p class="text-p footer__brand">Разработано лучшей студей</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
